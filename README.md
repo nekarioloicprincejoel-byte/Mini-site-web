@@ -1,32 +1,61 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NK Production</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f8f8f8;
-            color: #333;
-        }
-        header {
-            background-color: #0077cc;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-        }
-        nav {
-            background-color: #005fa3;
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            padding: 0.5rem;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
+<!DOCTYPE html >
+< html  lang =" fr " >
+< tête >
+    < meta  charset =" UTF-8 " />
+    < titre > NK Production </ titre >
+    < meta  name =" google-site-verification " content =" 6baf2c27c7d592e0 " />
+    < meta  name =" viewport " content =" width=device-width, initial-scale=1 " />
+    <!-- Autres balises méta ou liens CSS -->
+</ tête >
+< corps >
+
+    < nav >
+        < a  href =" #accueil " > Accueil </ a >
+        < a  href =" #apropos " > À propos </ a >
+        < a  href =" services.html " > Nos services </ a >
+    </ nav >
+
+    < section  id =" accueil " >
+        < h2 > Accueil </ h2 >
+        < p > Bienvenue chez NK Production </ p >
+        < p > Ceci est un mini site web créé en HTML et CSS. </p>​​
+    </ section >
+
+    < section  id =" à propos " >
+        < h2 > À propos </ h2 >
+        < p > Je suis passionné par la création de sites web simples et efficaces. </p>​​
+    </ section >
+
+    < section  id =" services " >
+        < h2 > Nos services </ h2 >
+        < ul >
+            < li > Service 1 : Développeur d'Applications </ li >
+            < li > Service 2 : Création de minis sites web </ li >
+            < li > Service 3 : Création de contenus numériques </ li >
+        </ ul >
+    </ section >
+
+</ corps >
+</ html >
+       
+< h2 > Contact </ h2 >
+< div  style =" bordure : 2 px solide #ccc ; remplissage : 20 px ; rayon de bordure : 10 px ; largeur maximale : 300 px ; couleur d’arrière-plan : #f9f9f9 ; famille de polices : Arial, sans-serif ; " >
+    < h3  style =" text-align: center; color: #333; " > 📬 Me contacter </ h3 >
+    < p > 📧 < a  href =" mailto:nekarioloicprincejoel@gmail.com " style =" color: #007BFF; " > E-mail </ a > </ p >
+    < p > 💬 < a  href =" https://wa.me/23672130432 " style =" color: #25D366; " > WhatsApp </ a > </ p >
+    < p > 📨 < a  href =" https://t.me/TonIdentifiantTelegram " style =" color: #0088cc; " > Télégramme </ a > </ p >
+    < p > 💼 < a  href =" https://teams.microsoft.com/l/chat/0/0?users=nekarioloicprincejoel@gmail.com " style =" color: #464EB8; " > Microsoft Teams </ a > </ p >
+    < p > 📘 < a  href =" https://www.facebook.com/search/top?q=Lo%C3%AFc%20Prince%20Jo%C3%ABl%20NEKARIO " style =" color: #1877F2; " > Facebook </ a > </ p >
+</div>​​
+                        
+</ section >
+
+< pied de page >
+    © 2025 Mon Mini Site
+</ pied de page >
+
+</ corps >
+</ html >            text-decoration: none;
         }
         section {
             padding: 2rem;

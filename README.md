@@ -75,7 +75,9 @@ index.html
     <p>Facebook : Loïc Prince Joël NEKARIO</p>
         <p>Telegram : +23672130432</p>
             <p>Teams : nekarioloicprincejoel@gmail.com</p>
-           <p><a href="https://wa.me/237XXXXXXXXX">Whatsapp : +23672239595/+23672130432</a></p>
+           <a href="https://wa.me/23672130432" target="_blank" style="background-color: #25D366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 16px;">
+    💬 Discuter sur WhatsApp
+           </a>
                         
 </section>
 

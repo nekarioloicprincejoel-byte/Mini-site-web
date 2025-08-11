@@ -71,32 +71,13 @@ index.html
         <li>Service 3 : Créer des minis </li>
        
 <h2>Contact</h2>
-    <!-- Lien vers la librairie d'icônes -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<!-- Conteneur des boutons -->
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 20px;">
-
-    <!-- WhatsApp -->
-    <a href="https://wa.me/23672130432" target="_blank" style="background-color: #25D366; color: white; padding: 12px 20px; text-decoration: none; border-radius: 8px; display: flex; align-items: center; font-size: 16px;">
-        <i class="fab fa-whatsapp" style="margin-right: 8px;"></i> WhatsApp
-    </a>
-
-    <!-- Email -->
-    <a href="nekarioloicprincejoel@gmail.com" style="background-color: #D44638; color: white; padding: 12px 20px; text-decoration: none; border-radius: 8px; display: flex; align-items: center; font-size: 16px;">
-        <i class="fas fa-envelope" style="margin-right: 8px;"></i> Email
-    </a>
-
-    <!-- Telegram -->
-    <a href="https://t.me/tonusername" target="_blank" style="background-color: #0088cc; color: white; padding: 12px 20px; text-decoration: none; border-radius: 8px; display: flex; align-items: center; font-size: 16px;">
-        <i class="fab fa-telegram-plane" style="margin-right: 8px;"></i> Telegram
-    </a>
-
-    <!-- Microsoft Teams -->
-    <a href="https://nekarioloicprincejoel@gmail.com/l/chat/0/0?users=tonemail@example.com" target="_blank" style="background-color: #464EB8; color: white; padding: 12px 20px; text-decoration: none; border-radius: 8px; display: flex; align-items: center; font-size: 16px;">
-        <i class="fab fa-microsoft" style="margin-right: 8px;"></i> Teams
-    </a>
-
+<div style="border: 2px solid #ccc; padding: 20px; border-radius: 10px; max-width: 300px; background-color: #f9f9f9; font-family: Arial, sans-serif;">
+    <h3 style="text-align: center; color: #333;">📬 Me contacter</h3>
+    <p>📧 <a href="mailto:nekarioloicprincejoel@gmail.com" style="color: #007BFF;">Email</a></p>
+    <p>💬 <a href="https://wa.me/23672130432" style="color: #25D366;">WhatsApp</a></p>
+    <p>📨 <a href="https://t.me/TonIdentifiantTelegram" style="color: #0088cc;">Telegram</a></p>
+    <p>💼 <a href="https://teams.microsoft.com/l/chat/0/0?users=nekarioloicprincejoel@gmail.com" style="color: #464EB8;">Microsoft Teams</a></p>
+    <p>📘 <a href="https://www.facebook.com/search/top?q=Lo%C3%AFc%20Prince%20Jo%C3%ABl%20NEKARIO" style="color: #1877F2;">Facebook</a></p>
 </div>
                         
 </section>

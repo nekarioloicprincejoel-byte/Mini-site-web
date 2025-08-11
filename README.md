@@ -71,13 +71,25 @@ index.html
         <li>Service 3 : Créer des minis </li>
        
 <h2>Contact</h2>
-    <p>Email : nekarioloicprincejoel@gmail.com</p>
-    <p>Facebook : Loïc Prince Joël NEKARIO</p>
-        <p>Telegram : +23672130432</p>
-            <p>Teams : nekarioloicprincejoel@gmail.com</p>
-           <a href="https://wa.me/23672130432" target="_blank" style="background-color: #25D366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-size: 16px;">
-    💬 Discuter sur WhatsApp
-           </a>
+    <!-- Bouton WhatsApp -->
+<a href="https://wa.me/23672130432" target="_blank" style="background-color: #25D366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin: 5px;">
+    💬 WhatsApp
+</a>
+
+<!-- Lien Email -->
+<a href="nekarioloicprincejoel@gmail.com" style="background-color: #D44638; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin: 5px;">
+    📧 Email
+</a>
+
+<!-- Lien Telegram -->
+<a href="https://t.me/tonusername" target="_blank" style="background-color: #0088cc; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin: 5px;">
+    ✈ Telegram
+</a>
+
+<!-- Lien Microsoft Teams -->
+<a href="https://teams.microsoft.com/l/chat/0/0?users=nekarioloicprincejoel@gmail.com" target="_blank" style="background-color: #464EB8; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin: 5px;">
+    💼 Microsoft Teams
+</a>
                         
 </section>
 

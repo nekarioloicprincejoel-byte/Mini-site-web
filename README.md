@@ -67,7 +67,7 @@
 
         <li>Service 1 : Développer des Applications</li>
         <li>Service 2 : Créer des minis site web</li>
-        <li>Service 3 : Créer des minis </li>
+        <li>Service 3 : Créer des minis jeux </li>
 <a href="contact.html">Contact</a>       
 <h2>Contact</h2>
 <div style="border: 2px solid #ccc; padding: 20px; border-radius: 10px; max-width: 300px; background-color: #f9f9f9; font-family: Arial, sans-serif;">

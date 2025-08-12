@@ -1,24 +1,19 @@
 <!DOCTYPE html >
-< html  lang =" fr " >
-< tête >
-    < meta  charset =" UTF-8 " />
-    < titre > NK Production </ titre >
-    < meta  name =" google-site-verification " content =" 6baf2c27c7d592e0 " />
-    < meta  name =" viewport " content =" width=device-width, initial-scale=1 " />
-    <!-- Autres balises méta ou liens CSS -->
-</ tête >
-< corps >
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon mini site</title>
 
-    < nav >
-        < a  href =" #accueil " > Accueil </ a >
-        < a  href =" #apropos " > À propos </ a >
-        < a  href =" services.html " > Nos services </ a >
-    </ nav >
-
-    < section  id =" accueil " >
-        < h2 > Accueil </ h2 >
-        < p > Bienvenue chez NK Production </ p >
-        < p > Ceci est un mini site web créé en HTML et CSS. </p>​​
+    <!-- Vérification Google -->
+    <meta name="google-site-verification" content="9ybw7ksW1DUr2Edjdeot5yutY-WEKxhbK2SQfQssLDU" />
+</head>
+<body>
+    <h1>Bienvenue sur mon mini-site</h1>
+    <p>Ceci est la page d'accueil.</p>
+</body>
+</html>​​
     </ section >
 
     < section  id =" à propos " >

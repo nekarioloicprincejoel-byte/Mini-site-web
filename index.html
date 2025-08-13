@@ -1,96 +1,52 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NK Production - Développeur d'application</title>
-  <meta name="description" content="NK Production, développeur d'applications professionnelles et solutions numériques." />
-
-  <!-- Balise Google (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KX1552WG62"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-KX1552WG62');
-  </script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NK Production - Mini-site</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header, footer, nav, section {
-      margin-bottom: 30px;
-    }
-    header h1 {
-      color: #007acc;
+    body { margin:0; font-family: 'Segoe UI', sans-serif; background:#fff; }
+    nav { padding: 10px; background: #003082; color: #fff; text-align:center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 30px; }
+    /* Fête de l'indépendance */
+    .celebration-container {
       text-align: center;
+      background: linear-gradient(to bottom, #0033A0 20%, #FFFFFF 40%, #FFD100 60%, #DC143C 80%, #009639 100%);
+      color: red;
+      -webkit-text-stroke: 1px white;
+      position: relative;
+      overflow:hidden;
+      padding: 50px 20px;
     }
-    nav {
-      text-align: center;
-      margin-bottom: 40px;
+    .word { opacity: 0; display: inline-block; margin-right:5px; animation: appear 0.5s forwards; }
+    @keyframes appear {
+      from { opacity:0; transform: translateY(20px) scale(0.9); }
+      to { opacity:1; transform: translateY(0) scale(1); }
     }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #007acc;
-      font-weight: bold;
+    .heart {
+      position: absolute;
+      font-size: 20px;
+      animation: float 5s linear infinite;
     }
-    nav a:hover {
-      text-decoration: underline;
+    @keyframes float {
+      0% { transform: translateY(100vh) translateX(0); opacity:1; }
+      100% { transform: translateY(-50px) translateX(50px); opacity:0; }
     }
-    section {
-      background: white;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
-    }
-    ul {
-      list-style-type: disc;
-      margin-left: 20px;
-    }
-    footer {
-      text-align: center;
-      padding: 15px;
-      background-color: #ddd;
-      color: #555;
-      font-size: 0.9em;
-      border-radius: 8px;
-    }
-    .contact-box {
-      border: 2px solid #ccc;
-      padding: 20px;
-      border-radius: 10px;
-      max-width: 300px;
-      background-color: #f9f9f9;
-      margin: auto;
-    }
-    .contact-box h3 {
-      text-align: center;
-      color: #333;
-      margin-bottom: 15px;
-    }
-    .contact-box p a {
-      color: inherit;
-      text-decoration: none;
-    }
-    .contact-box p a:hover {
-      text-decoration: underline;
-    }
+    .links { margin: 20px 0; }
+    .links a { display:inline-block; margin:5px; padding:10px 15px; border-radius: 25px; color:white; background:#003082; text-decoration:none; font-weight:bold; transition:0.3s; }
+    .links a:hover { background:#FFD100; color:black; }
+    /* Carrousel documents */
+    .docs-section { background: rgba(255,255,255,0.9); border-radius:15px; max-width:900px; margin:50px auto; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+    .docs-section h2 { text-align:center; color:#DC143C; margin-bottom:20px; }
+    .swiper { width:100%; height:550px; }
+    .swiper-slide iframe { width:100%; height:500px; border:none; background:#f9f9f9; border-radius:10px; padding:15px; }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>NK Production</h1>
-  </header>
-
+  <!-- Navigation actuel -->
   <nav>
     <a href="#accueil">Accueil</a>
     <a href="#apropos">À propos</a>
@@ -98,41 +54,76 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <section id="accueil">
-    <h2>Accueil</h2>
-    <p>Bienvenue chez NK Production</p>
-    <p>Développeur d'applications professionnelles et solutions numériques.</p>
-  </section>
-
-  <section id="apropos">
-    <h2>À propos</h2>
-    <p>Je suis passionné par la création de sites web simples et efficaces.</p>
-  </section>
-
-  <section id="services">
-    <h2>Nos services</h2>
-    <ul>
-      <li>Service 1 : Développeur d'Applications</li>
-      <li>Service 2 : Création de minis sites web</li>
-      <li>Service 3 : Création de contenus numériques</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <div class="contact-box">
-      <h3>📬 Me contacter</h3>
-      <p>📧 <a href="mailto:nekarioloicprincejoel@gmail.com" style="color: #007BFF;">E-mail</a></p>
-      <p>💬 <a href="https://wa.me/23672130432" style="color: #25D366;">WhatsApp</a></p>
-      <p>📨 <a href="https://t.me/TonIdentifiantTelegram" style="color: #0088cc;">Telegram</a></p>
-      <p>💼 <a href="https://teams.microsoft.com/l/chat/0/0?users=nekarioloicprincejoel@gmail.com" style="color: #464EB8;">Microsoft Teams</a></p>
-      <p>📘 <a href="https://www.facebook.com/search/top?q=Lo%C3%AFc%20Prince%20Jo%C3%ABl%20NEKARIO" style="color: #1877F2;">Facebook</a></p>
+  <!-- Section fête animée -->
+  <section class="celebration-container">
+    <h1 id="message"></h1>
+    <div class="links">
+      <a href="https://wa.me/23672130432" target="_blank">WhatsApp</a>
+      <a href="https://t.me/23672130432" target="_blank">Telegram</a>
+      <a href="mailto:nekarioloicprincejoel@gmail.com" target="_blank">Email / Teams</a>
     </div>
   </section>
 
-  <footer>
-    © 2025 Mon Mini Site
-  </footer>
+  <!-- Sections existantes -->
+  <section id="accueil"><h2>Accueil</h2><p>Bienvenue chez NK Production…</p></section>
+  <section id="apropos"><h2>À propos</h2><p>Je suis passionné…</p></section>
+  <section id="services"><h2>Nos services</h2><ul><li>Développeur d'Applications</li><li>Création de minis sites web</li><li>Création de contenus numériques</li></ul></section>
+  <section id="contact"><h2>Contact</h2><p>WhatsApp, Telegram, Teams, Facebook</p></section>
 
+  <!-- Carrousel documents -->
+  <section class="docs-section">
+    <h2>📚 Documents utiles</h2>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <h3>Guide logistique (PDF)</h3>
+          <iframe src="docs/guide-logistique.pdf"></iframe>
+        </div>
+        <div class="swiper-slide">
+          <h3>Travail complet NK (Word)</h3>
+          <iframe src="https://docs.google.com/viewer?url=https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Travail-complet-NK.docx&embedded=true"></iframe>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    // Phrase animée
+    const phrase = "Loïc Prince Joël NEKARIO souhaite bonne fête 🥳 de l'indépendance à tous les Centrafricains";
+    const container = document.getElementById('message');
+    phrase.split(' ').forEach((word, i) => {
+      const span = document.createElement('span');
+      span.className = 'word';
+      span.style.animationDelay = `${i * 0.4}s`;
+      span.textContent = word;
+      container.appendChild(span);
+      container.appendChild(document.createTextNode(" "));
+    });
+
+    // Cœurs flottants
+    for(let i=0;i<30;i++){
+      const heart = document.createElement('div');
+      heart.className = 'heart';
+      heart.textContent = '❤';
+      heart.style.left = Math.random() * window.innerWidth + 'px';
+      heart.style.fontSize = `${15 + Math.random()*25}px`;
+      heart.style.animationDuration = `${3 + Math.random()*5}s`;
+      heart.style.color = ['#0033A0','#FFFFFF','#FFD100','#DC143C','#009639'][Math.floor(Math.random()*5)];
+      document.body.appendChild(heart);
+    }
+
+    // Init Swiper
+    new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: { el: ".swiper-pagination", clickable: true },
+      navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+    });
+  </script>
 </body>
 </html>

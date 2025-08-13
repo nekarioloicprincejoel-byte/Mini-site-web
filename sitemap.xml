@@ -1,5 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="#style"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Feuille XSL intégrée -->
+  <xsl:stylesheet id="style" version="1.0"
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="/">
+      <html>
+        <head>
+          <title>📍 Sitemap - Mini-site-web</title>
+          <style>
+            body {
+              font-family: 'Segoe UI', Arial, sans-serif;
+              margin: 30px;
+              background-color: #f5f7fa;
+              color: #333;
+            }
+            h1 {
+              text-align: center;
+              color: #2b6cb0;
+              font-size: 28px;
+            }
+            table {
+              border-collapse: collapse;
+              width: 100%;
+              box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+              background: white;
+              border-radius: 8px;
+              overflow: hidden;
+            }
+            th, td {
+              padding: 12px 15px;
+              text-align: left;
+            }
+            th {
+              background-color: #2b6cb0;
+              color: white;
+              font-size: 16px;
+            }
+            tr:nth-child(even) { background-color: #f0f4f8; }
+            a {
+              color: #2b6cb0;
+              text-decoration: none;
+              font-weight: bold;
+            }
+            a:hover {
+              text-decoration: underline;
+            }
+            .priority-high { color: #e53e3e; font-weight: bold; }
+            .priority-medium { color: #dd6b20; font-weight: bold; }
+            .priority-low { color: #38a169; font-weight: bold; }
+          </style>
+        </head>
+        <body>
+          <h1>📍 Plan du site</h1>
+          <table>
+            <tr>
+              <th>🔗 URL</th>
+              <th>📅 Dernière modification</th>
+              <th>⭐ Priorité</th>
+            </tr>
+            <xsl:for-each select="urlset/url">
+              <tr>
+                <td><a href="{loc}" target="_blank"><xsl:value-of select="loc"/></a></td>
+                <td><xsl:value-of select="lastmod"/></td>
+                <td>
+                  <xsl:choose>
+                    <xsl:when test="priority='1.0'">
+                      <span class="priority-high">🔥 <xsl:value-of select="priority"/></span>
+                    </xsl:when>
+                    <xsl:when test="priority &gt;= 0.8">
+                      <span class="priority-medium">⚡ <xsl:value-of select="priority"/></span>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <span class="priority-low">✅ <xsl:value-of select="priority"/></span>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </td>
+              </tr>
+            </xsl:for-each>
+          </table>
+        </body>
+      </html>
+    </xsl:template>
+  </xsl:stylesheet>
+
+  <!-- Tes URLs -->
   <url>
     <loc>https://nekarioloicprincejoel-byte.github.io/Mini-site-web/</loc>
     <lastmod>2025-08-13</lastmod>

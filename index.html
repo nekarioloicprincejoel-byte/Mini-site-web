@@ -1,166 +1,106 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEKARIO Loïc Prince Joël - Logisticien</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #0033A0, #FFD700, #FFFFFF, #008000, #FF0000); /* Drapeau RCA */
-            color: white;
-            text-align: center;
-        }
-        header {
-            background: rgba(0, 0, 0, 0.5);
-            padding: 15px 0;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .animated-text {
-            font-size: 1.5em;
-            font-weight: bold;
-            color: black;
-            -webkit-text-stroke: 1px white;
-            margin-top: 50px;
-        }
-        section {
-            padding: 40px 20px;
-        }
-        iframe {
-            width: 100%;
-            height: 400px;
-            border: 2px solid white;
-            border-radius: 10px;
-        }
-        .swiper {
-            width: 90%;
-            max-width: 900px;
-            margin: auto;
-        }
-        .contact-info {
-            margin-top: 30px;
-            font-size: 1.2em;
-        }
-        .contact-info a {
-            color: yellow;
-            display: block;
-            margin: 5px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Site Web - Loïc Prince Joël NEKARIO</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #003366; /* Bleu foncé */
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #002244;
+      padding: 15px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    a.download-link {
+      display: block;
+      margin-bottom: 10px;
+      color: #FFD700; /* Jaune doré pour ressortir */
+      text-decoration: none;
+    }
+    a.download-link:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background-color: #002244;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-
-<header>
+  <header>
+    <h1>Loïc Prince Joël NEKARIO</h1>
     <nav>
-        <a href="#accueil">Accueil</a>
-        <a href="#apropos">À propos</a>
-        <a href="#services">Services</a>
-        <a href="#documents">Documents</a>
-        <a href="#contacts">Contacts</a>
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#services">Services</a>
+      <a href="#contacts">Contacts</a>
     </nav>
-</header>
+  </header>
 
-<section id="accueil">
-    <div class="animated-text" id="welcome-text"></div>
-</section>
+  <main>
+    <section id="accueil">
+      <h2>Bienvenue</h2>
+      <p>Bienvenue sur mon site. Vous trouverez ici mes travaux et documents à télécharger.</p>
+    </section>
 
-<section id="apropos">
-    <h2>À propos</h2>
-    <p>Je suis NEKARIO Loïc Prince Joël, Logisticien passionné par l’optimisation des flux, la gestion des stocks et le développement des solutions logistiques modernes.</p>
-</section>
+    <section id="apropos">
+      <h2>À propos</h2>
+      <p>Je suis Logisticien passionné par l’optimisation des flux, la gestion de projets et la formation.</p>
+    </section>
 
-<section id="services">
-    <h2>Services</h2>
-    <ul>
-        <li>Gestion et optimisation logistique</li>
-        <li>Conseil en organisation et management</li>
-        <li>Formation en logistique et supply chain</li>
-    </ul>
-</section>
+    <section id="services">
+      <h2>Documents disponibles</h2>
+      <a class="download-link" href="docs/Mémoire de Licence en Fiscalité KLC.pdf" target="_blank">📄 Mémoire de Licence en Fiscalité KLC</a>
+      <a class="download-link" href="docs/Mémoire de Licence en Logistique BK.pdf" target="_blank">📄 Mémoire de Licence en Logistique BK</a>
+      <a class="download-link" href="docs/Mémoire de Licence en Logistique KK 2025.pdf" target="_blank">📄 Mémoire de Licence en Logistique KK 2025</a>
+      <a class="download-link" href="docs/Mémoire de Licence en Management DN 2025.pdf" target="_blank">📄 Mémoire de Licence en Management DN 2025</a>
+      <a class="download-link" href="docs/Travail complet NK.pdf" target="_blank">📄 Travail complet NK</a>
+      <a class="download-link" href="docs/Travail validé KAIMBA 2025.pdf" target="_blank">📄 Travail validé KAIMBA 2025</a>
+    </section>
 
-<section id="documents">
-    <h2>📚 Documents utiles</h2>
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <h3>Mémoire de Licence en Fiscalité KLC</h3>
-                <iframe src="docs/Mémoire%20de%20Licence%20en%20Fiscalité%20KLC.pdf"></iframe>
-            </div>
-            <div class="swiper-slide">
-                <h3>Mémoire de Licence en Logistique BK</h3>
-                <iframe src="docs/Mémoire%20de%20Licence%20en%20Logistique%20BK.pdf"></iframe>
-            </div>
-            <div class="swiper-slide">
-                <h3>Mémoire de Licence en Logistique KK 2025</h3>
-                <iframe src="docs/Mémoire%20de%20Licence%20en%20Logistique%20KK%202025.pdf"></iframe>
-            </div>
-            <div class="swiper-slide">
-                <h3>Mémoire de Licence en Management DN 2025</h3>
-                <iframe src="docs/Mémoire%20de%20Licence%20en%20Management%20DN%202025.pdf"></iframe>
-            </div>
-            <div class="swiper-slide">
-                <h3>Travail complet NK</h3>
-                <iframe src="docs/Travail%20complet%20NK.pdf"></iframe>
-            </div>
-            <div class="swiper-slide">
-                <h3>Travail validé KAIMBA 2025</h3>
-                <iframe src="docs/Travail%20validé%20KAIMBA%202025.pdf"></iframe>
-            </div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-    </div>
-</section>
+    <section id="contacts">
+      <h2>Contacts</h2>
+      <p>📱 WhatsApp : <a href="https://wa.me/23672130432" style="color:#FFD700;">+236 72 13 04 32</a></p>
+      <p>💬 Telegram : <a href="https://t.me/LoicPrinceJoel" style="color:#FFD700;">Loïc Prince Joël NEKARIO</a></p>
+      <p>💼 Teams : <a href="https://teams.microsoft.com/l/chat/0/0?users=nekarioloicprincejoel@gmail.com" style="color:#FFD700;">nekarioloicprincejoel@gmail.com</a></p>
+      <p>📧 Email : <a href="mailto:nekarioloicprincejoel@gmail.com" style="color:#FFD700;">nekarioloicprincejoel@gmail.com</a></p>
+    </section>
+  </main>
 
-<section id="contacts" class="contact-info">
-    <h2>Contacts</h2>
-    <a href="https://wa.me/23672130432" target="_blank">📱 WhatsApp : 2367213043</a>
-    <a href="mailto:nekarioloicprincejoel@gmail.com">📧 Email : nekarioloicprincejoel@gmail.com</a>
-    <a href="https://t.me/23672130432" target="_blank">💬 Telegram : 23672130432</a>
-    <a href="mailto:nekarioloicprincejoel@gmail.com">💼 Teams : nekarioloicprincejoel@gmail.com</a>
-</section>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-    // Animation mot par mot
-    const text = "Loïc Prince Joël NEKARIO souhaite bonne fête 🥳 de l'indépendance à tous les Centrafricains.";
-    const words = text.split(" ");
-    let index = 0;
-    function showWords() {
-        if (index < words.length) {
-            document.getElementById("welcome-text").innerHTML += words[index] + " ";
-            index++;
-            setTimeout(showWords, 300);
-        }
-    }
-    showWords();
-
-    // Swiper pour documents
-    var swiper = new Swiper(".mySwiper", {
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
-</script>
-
+  <footer>
+    &copy; 2025 Loïc Prince Joël NEKARIO - Tous droits réservés
+  </footer>
 </body>
 </html>

@@ -1,129 +1,166 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NK Production - Mini-site</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-  <style>
-    body { margin:0; font-family: 'Segoe UI', sans-serif; background:#fff; }
-    nav { padding: 10px; background: #003082; color: #fff; text-align:center; }
-    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
-    section { padding: 30px; }
-    /* Fête de l'indépendance */
-    .celebration-container {
-      text-align: center;
-      background: linear-gradient(to bottom, #0033A0 20%, #FFFFFF 40%, #FFD100 60%, #DC143C 80%, #009639 100%);
-      color: red;
-      -webkit-text-stroke: 1px white;
-      position: relative;
-      overflow:hidden;
-      padding: 50px 20px;
-    }
-    .word { opacity: 0; display: inline-block; margin-right:5px; animation: appear 0.5s forwards; }
-    @keyframes appear {
-      from { opacity:0; transform: translateY(20px) scale(0.9); }
-      to { opacity:1; transform: translateY(0) scale(1); }
-    }
-    .heart {
-      position: absolute;
-      font-size: 20px;
-      animation: float 5s linear infinite;
-    }
-    @keyframes float {
-      0% { transform: translateY(100vh) translateX(0); opacity:1; }
-      100% { transform: translateY(-50px) translateX(50px); opacity:0; }
-    }
-    .links { margin: 20px 0; }
-    .links a { display:inline-block; margin:5px; padding:10px 15px; border-radius: 25px; color:white; background:#003082; text-decoration:none; font-weight:bold; transition:0.3s; }
-    .links a:hover { background:#FFD100; color:black; }
-    /* Carrousel documents */
-    .docs-section { background: rgba(255,255,255,0.9); border-radius:15px; max-width:900px; margin:50px auto; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
-    .docs-section h2 { text-align:center; color:#DC143C; margin-bottom:20px; }
-    .swiper { width:100%; height:550px; }
-    .swiper-slide iframe { width:100%; height:500px; border:none; background:#f9f9f9; border-radius:10px; padding:15px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEKARIO Loïc Prince Joël - Logisticien</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #0033A0, #FFD700, #FFFFFF, #008000, #FF0000); /* Drapeau RCA */
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .animated-text {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: black;
+            -webkit-text-stroke: 1px white;
+            margin-top: 50px;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+        .swiper {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+        }
+        .contact-info {
+            margin-top: 30px;
+            font-size: 1.2em;
+        }
+        .contact-info a {
+            color: yellow;
+            display: block;
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
 
-  <!-- Navigation actuel -->
-  <nav>
-    <a href="#accueil">Accueil</a>
-    <a href="#apropos">À propos</a>
-    <a href="#services">Nos services</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<header>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#services">Services</a>
+        <a href="#documents">Documents</a>
+        <a href="#contacts">Contacts</a>
+    </nav>
+</header>
 
-  <!-- Section fête animée -->
-  <section class="celebration-container">
-    <h1 id="message"></h1>
-    <div class="links">
-      <a href="https://wa.me/23672130432" target="_blank">WhatsApp</a>
-      <a href="https://t.me/23672130432" target="_blank">Telegram</a>
-      <a href="mailto:nekarioloicprincejoel@gmail.com" target="_blank">Email / Teams</a>
-    </div>
-  </section>
+<section id="accueil">
+    <div class="animated-text" id="welcome-text"></div>
+</section>
 
-  <!-- Sections existantes -->
-  <section id="accueil"><h2>Accueil</h2><p>Bienvenue chez NK Production…</p></section>
-  <section id="apropos"><h2>À propos</h2><p>Je suis passionné…</p></section>
-  <section id="services"><h2>Nos services</h2><ul><li>Développeur d'Applications</li><li>Création de minis sites web</li><li>Création de contenus numériques</li></ul></section>
-  <section id="contact"><h2>Contact</h2><p>WhatsApp, Telegram, Teams, Facebook</p></section>
+<section id="apropos">
+    <h2>À propos</h2>
+    <p>Je suis NEKARIO Loïc Prince Joël, Logisticien passionné par l’optimisation des flux, la gestion des stocks et le développement des solutions logistiques modernes.</p>
+</section>
 
-  <!-- Carrousel documents -->
-  <section class="docs-section">
+<section id="services">
+    <h2>Services</h2>
+    <ul>
+        <li>Gestion et optimisation logistique</li>
+        <li>Conseil en organisation et management</li>
+        <li>Formation en logistique et supply chain</li>
+    </ul>
+</section>
+
+<section id="documents">
     <h2>📚 Documents utiles</h2>
     <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <h3>Guide logistique (PDF)</h3>
-          <iframe src="docs/guide-logistique.pdf"></iframe>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <h3>Mémoire de Licence en Fiscalité KLC</h3>
+                <iframe src="docs/Mémoire%20de%20Licence%20en%20Fiscalité%20KLC.pdf"></iframe>
+            </div>
+            <div class="swiper-slide">
+                <h3>Mémoire de Licence en Logistique BK</h3>
+                <iframe src="docs/Mémoire%20de%20Licence%20en%20Logistique%20BK.pdf"></iframe>
+            </div>
+            <div class="swiper-slide">
+                <h3>Mémoire de Licence en Logistique KK 2025</h3>
+                <iframe src="docs/Mémoire%20de%20Licence%20en%20Logistique%20KK%202025.pdf"></iframe>
+            </div>
+            <div class="swiper-slide">
+                <h3>Mémoire de Licence en Management DN 2025</h3>
+                <iframe src="docs/Mémoire%20de%20Licence%20en%20Management%20DN%202025.pdf"></iframe>
+            </div>
+            <div class="swiper-slide">
+                <h3>Travail complet NK</h3>
+                <iframe src="docs/Travail%20complet%20NK.pdf"></iframe>
+            </div>
+            <div class="swiper-slide">
+                <h3>Travail validé KAIMBA 2025</h3>
+                <iframe src="docs/Travail%20validé%20KAIMBA%202025.pdf"></iframe>
+            </div>
         </div>
-        <div class="swiper-slide">
-          <h3>Travail complet NK (Word)</h3>
-          <iframe src="https://docs.google.com/viewer?url=https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Travail-complet-NK.docx&embedded=true"></iframe>
-        </div>
-      </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
     </div>
-  </section>
+</section>
 
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script>
-    // Phrase animée
-    const phrase = "Loïc Prince Joël NEKARIO souhaite bonne fête 🥳 de l'indépendance à tous les Centrafricains";
-    const container = document.getElementById('message');
-    phrase.split(' ').forEach((word, i) => {
-      const span = document.createElement('span');
-      span.className = 'word';
-      span.style.animationDelay = `${i * 0.4}s`;
-      span.textContent = word;
-      container.appendChild(span);
-      container.appendChild(document.createTextNode(" "));
-    });
+<section id="contacts" class="contact-info">
+    <h2>Contacts</h2>
+    <a href="https://wa.me/23672130432" target="_blank">📱 WhatsApp : 2367213043</a>
+    <a href="mailto:nekarioloicprincejoel@gmail.com">📧 Email : nekarioloicprincejoel@gmail.com</a>
+    <a href="https://t.me/23672130432" target="_blank">💬 Telegram : 23672130432</a>
+    <a href="mailto:nekarioloicprincejoel@gmail.com">💼 Teams : nekarioloicprincejoel@gmail.com</a>
+</section>
 
-    // Cœurs flottants
-    for(let i=0;i<30;i++){
-      const heart = document.createElement('div');
-      heart.className = 'heart';
-      heart.textContent = '❤';
-      heart.style.left = Math.random() * window.innerWidth + 'px';
-      heart.style.fontSize = `${15 + Math.random()*25}px`;
-      heart.style.animationDuration = `${3 + Math.random()*5}s`;
-      heart.style.color = ['#0033A0','#FFFFFF','#FFD100','#DC143C','#009639'][Math.floor(Math.random()*5)];
-      document.body.appendChild(heart);
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    // Animation mot par mot
+    const text = "Loïc Prince Joël NEKARIO souhaite bonne fête 🥳 de l'indépendance à tous les Centrafricains.";
+    const words = text.split(" ");
+    let index = 0;
+    function showWords() {
+        if (index < words.length) {
+            document.getElementById("welcome-text").innerHTML += words[index] + " ";
+            index++;
+            setTimeout(showWords, 300);
+        }
     }
+    showWords();
 
-    // Init Swiper
-    new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: { el: ".swiper-pagination", clickable: true },
-      navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+    // Swiper pour documents
+    var swiper = new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
     });
-  </script>
+</script>
+
 </body>
 </html>

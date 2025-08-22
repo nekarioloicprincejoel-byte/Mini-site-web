@@ -23,12 +23,11 @@ Téléchargez mes travaux et mémoires directement depuis le dépôt :
 - [Mémoire de Licence en Fiscalité KLC](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire de Licence en Fiscalite KLC.pdf)  
 - [Mémoire de Licence en Logistique BK](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire de Licence en Logistique BK.pdf)  
 - [Mémoire de Licence en Logistique KK 2025](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire de Licence en Logistique KK 2025.pdf)  
-- [Mémoire de Licence en Management DN 2025](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire de Licence en Management DN 2025.pdf)  
-- [Méthodologie de recherche 1](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Methodologie de recherche 1.pdf)  
-- [Méthodologie de recherche 2](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Methodologie de recherche 2.pdf)  
-- [Travail complet NK](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Travail complet NK.pdf)  
+- [Mémoire de Licence en Management DN 2025](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire de Licence en Management DN 2025.pdf)
 - [Mémoire validé 2025](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire valide 2025.pdf)  
-
+- [Méthodologie de recherche 2](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Methodologie de recherche 2.pdf)  
+- [Méthodologie de recherche 1](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Methodologie de recherche 1.pdf)  
+- [Travail complet NK](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Travail complet NK.pdf)
 ## 🔗 Liens utiles  
 
 - **Facebook** : [Loïc Prince Joël NEKARIO](https://www.facebook.com/loic.nekario)  

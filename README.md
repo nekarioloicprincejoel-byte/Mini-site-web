@@ -1,133 +1,45 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mini Site Web - Loïc Prince Joël NEKARIO</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #003366; /* Bleu foncé */
-      color: white;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #002244;
-      padding: 15px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 10px;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      padding: 20px;
-    }
-    section {
-      margin-bottom: 30px;
-    }
-    a.download-link {
-      display: block;
-      margin-bottom: 10px;
-      color: #FFD700; /* Jaune doré */
-      text-decoration: none;
-    }
-    a.download-link:hover {
-      text-decoration: underline;
-    }
-    footer {
-      padding:20px; 
-      background:#002244; 
-      text-align:center;
-      margin-top: 20px;
-    }
-    footer h3 {
-      color: #FFD700;
-    }
-    footer svg {
-      vertical-align: middle;
-      transition: transform 0.2s;
-    }
-    footer a:hover svg {
-      transform: scale(1.2);
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Loïc Prince Joël NEKARIO</h1>
-    <nav>
-      <a href="#accueil">Accueil</a>
-      <a href="#apropos">À propos</a>
-      <a href="#services">Services</a>
-      <a href="#contacts">Contacts</a>
-    </nav>
-  </header>
+# 🌐 Mini Site Web - Loïc Prince Joël NEKARIO  
 
-  <main>
-    <section id="accueil">
-      <h2>Bienvenue</h2>
-      <p>Bienvenue sur mon site. Vous trouverez ici mes travaux et documents à télécharger.</p>
-    </section>
+Bienvenue sur le dépôt de mon **mini site web personnel**, conçu pour présenter mon profil, mes compétences et mes projets.  
 
-    <section id="apropos">
-      <h2>À propos</h2>
-      <p>Je suis Logisticien passionné par l’optimisation des flux, la gestion de projets et la formation.</p>
-    </section>
+## 📂 Structure du projet  
 
-    <section id="services">
-      <h2>Documents disponibles</h2>
-      <a class="download-link" href="docs/Memoire_de_Licence_en_Fiscalite_KLC.pdf" target="_blank">📄 Mémoire de Licence en Fiscalité KLC</a>
-      <a class="download-link" href="docs/Memoire_de_Licence_en_Logistique_BK.pdf" target="_blank">📄 Mémoire de Licence en Logistique BK</a>
-      <a class="download-link" href="docs/Memoire_de_Licence_en_Logistique_KK_2025.pdf" target="_blank">📄 Mémoire de Licence en Logistique KK 2025</a>
-      <a class="download-link" href="docs/Memoire_de_Licence_en_Management_DN_2025.pdf" target="_blank">📄 Mémoire de Licence en Management DN 2025</a>
-      <a class="download-link" href="docs/Methodologie_de_recherche_1.pdf" target="_blank">📄 Méthodologie de recherche 1</a>
-      <a class="download-link" href="docs/Methodologie_de_recherche_2.pdf" target="_blank">📄 Méthodologie de recherche 2</a>
-      <a class="download-link" href="docs/Travail_complet_NK.pdf" target="_blank">📄 Travail complet NK</a>
-      <a class="download-link" href="docs/Travail_valide_KAIMBA_2025.pdf" target="_blank">📄 Travail validé KAIMBA 2025</a>
-    </section>
+- `index.html` → Page d’accueil  
+- `about.html` → Page À propos  
+- `services.html` → Page Services  
+- `contact.html` → Page Contact  
+- `docs/` → Dossier contenant mes documents et ressources supplémentaires  
+- `assets/` → Images, icônes et fichiers CSS/JS  
 
-    <section id="contacts">
-      <h2>Contacts</h2>
-      <p>📱 WhatsApp : <a href="https://wa.me/23672130432" style="color:#FFD700;">+236 72 13 04 32</a></p>
-      <p>💬 Telegram : <a href="https://t.me/LoicPrinceJoel" style="color:#FFD700;">Loïc Prince Joël NEKARIO</a></p>
-      <p>💼 Teams : <a href="https://teams.microsoft.com/l/chat/0/0?users=nekarioloicprincejoel@gmail.com" style="color:#FFD700;">nekarioloicprincejoel@gmail.com</a></p>
-      <p>📧 Email : <a href="mailto:nekarioloicprincejoel@gmail.com" style="color:#FFD700;">nekarioloicprincejoel@gmail.com</a></p>
-    </section>
-  </main>
+## 🚀 Déploiement  
 
-  <footer>
-    <h3>Mes Réseaux Sociaux</h3>
-    <div style="font-size:24px;">
-      <a href="https://www.facebook.com/loic.nekario" target="_blank" style="margin: 0 10px; color: #1877F2;">
-        <!-- Icône Facebook -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#1877F2" viewBox="0 0 24 24">
-          <path d="M22 12a10 10 0 10-11.494 9.876v-6.987h-2.21v-2.89h2.21v-2.205c0-2.188 1.303-3.396 3.298-3.396.957 0 1.957.171 1.957.171v2.15h-1.101c-1.085 0-1.423.676-1.423 1.369v1.91h2.419l-.387 2.89h-2.032v6.987A10.004 10.004 0 0022 12z"/>
-        </svg>
-      </a>
+Le site est hébergé sur **GitHub Pages** :  
+👉 [Accéder au site](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/)  
 
-      <a href="https://www.linkedin.com/in/ton-lien-ici" target="_blank" style="margin: 0 10px; color: #0A66C2;">
-        <!-- Icône LinkedIn -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0A66C2" viewBox="0 0 24 24">
-          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.041-1.853-3.041-1.853 0-2.137 1.447-2.137 2.942v5.668h-3.554v-11.5h3.409v1.569h.049c.475-.9 1.637-1.852 3.369-1.852 3.601 0 4.268 2.371 4.268 5.452v6.331zm-13.686-13.68a2.068 2.068 0 110-4.136 2.068 2.068 0 010 4.136zm1.777 13.68h-3.554v-11.5h3.554v11.5zm15.335-20.452h-18.126c-.808 0-1.471.663-1.471 1.471v18.126c0 .808.663 1.471 1.471 1.471h18.126c.807 0 1.47-.663 1.47-1.471v-18.126c0-.807-.663-1.471-1.47-1.471z"/>
-        </svg>
-      </a>
-    </div>
-    <p style="margin-top:15px;">&copy; 2025 Loïc Prince Joël NEKARIO - Tous droits réservés</p>
-  </footer>
-</body>
-</html>
+## 📄 Documents disponibles  
+
+Téléchargez mes travaux et mémoires directement depuis le dépôt :  
+
+- [Mémoire de Licence en Fiscalité KLC](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire_de_Licence_en_Fiscalite_KLC.pdf)  
+- [Mémoire de Licence en Logistique BK](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire_de_Licence_en_Logistique_BK.pdf)  
+- [Mémoire de Licence en Logistique KK 2025](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire_de_Licence_en_Logistique_KK_2025.pdf)  
+- [Mémoire de Licence en Management DN 2025](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire_de_Licence_en_Management_DN_2025.pdf)  
+- [Méthodologie de recherche 1](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Methodologie_de_recherche_1.pdf)  
+- [Méthodologie de recherche 2](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Methodologie_de_recherche_2.pdf)  
+- [Travail complet NK](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Travail_complet_NK.pdf)  
+- [Memoire validé 2025](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire_valide_2025.pdf)  
+
+## 🔗 Liens utiles  
+
+- **Facebook** : [Loïc Prince Joël NEKARIO](https://www.facebook.com/loic.nekario)  
+- **LinkedIn** : [NEKARIO (NK) Loïc Prince Joël](https://www.linkedin.com/in/loic-prince-joel-nekario)  
+
+## ⚡ Technologies utilisées  
+
+- **HTML5 / CSS3**  
+- **JavaScript**  
+- Hébergement via **GitHub Pages**  
+
+## 📌 Auteur  
+
+👤 **Loïc Prince Joël NEKARIO**

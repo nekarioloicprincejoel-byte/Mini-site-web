@@ -20,6 +20,7 @@ Le site est hébergé sur **GitHub Pages** :
 
 Téléchargez mes travaux et mémoires directement depuis le dépôt :  
 
+- [DIAPOKLC](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/DIAPO KLC.pptx)
 - [Mémoire de Licence en Fiscalité KLC](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire de Licence en Fiscalite KLC.pdf)  
 - [Mémoire de Licence en Logistique BK](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire de Licence en Logistique BK.pdf)  
 - [Mémoire de Licence en Logistique KK 2025](https://nekarioloicprincejoel-byte.github.io/Mini-site-web/docs/Memoire de Licence en Logistique KK 2025.pdf)  
